@@ -2,9 +2,15 @@
 data/*.csv
 data/*.db
 
+# Ignore log files
+logs/*.txt
+
 # Ignore Python caches
 __pycache__/
 *.pyc
 
 # Ignore environment variables (for when you add API keys later)
 .env
+
+# Ignore blueprint
+/BLUEPRINT.md
